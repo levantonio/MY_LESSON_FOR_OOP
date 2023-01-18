@@ -30,7 +30,7 @@ class DataBase:
     def __del__(self):
         DataBase.__instanse = None  # Вернули предыдущие данные экзеипляру класса
 
-    def __init__(self, user, psw, port):
+    def __init__(self, user, psw, port):  # Конструктор
         self.user = user
         self.psw = psw
         self.port = port
