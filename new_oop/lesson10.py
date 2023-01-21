@@ -73,7 +73,7 @@ class Person:
         return self.__weight
 
     @weight.setter
-    def weigth(self, weight):
+    def weight(self, weight):
         self.verify_weight(weight)
         self.__weight = weight
 
@@ -93,3 +93,4 @@ p.old = 103
 p.weigth = 98.32
 p.passport = "9845 125554"
 print(p.__dict__)
+print(p.weigth)
