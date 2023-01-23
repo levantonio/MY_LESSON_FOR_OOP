@@ -20,6 +20,14 @@ t2.goto(-200, -20)
 t2.pendown()
 t2.speed(3)
 
+t3 = Turtle()
+t3.shape("turtle")
+t3.color("yellow")
+t3.penup()
+t3.goto(-200, -20)
+t3.pendown()
+t3.speed(3)
+
 
 def razmetka():
     t = Turtle()
@@ -50,7 +58,16 @@ def catch2(x, y):
 
 t2.onclick(catch2)
 
+
+def catch3(x, y):
+    t3.write('full', font=('Arial', 14, 'normal'))
+    t3.fd(randint(10, 15))
+
+
+t3.onclick(catch3)
+
 while t1.xcor() < finish and t2.xcor() < finish:
     t1.forward(randint(2, 7))
     t2.forward(randint(2, 7))
+    t3.forward(randint(2, 7))
     sleep(0.05)
