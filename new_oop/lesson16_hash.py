@@ -2,7 +2,7 @@
 # Равные хэши: hash(a) == hash(b) не гарантируют иавенство обьектов
 # Если хэши не равны hash(a) != hash(b), то обьекты точно не равныe
 
-class Point():
+class Point:
 
     def __init__(self, x, y):
         self.x = x
