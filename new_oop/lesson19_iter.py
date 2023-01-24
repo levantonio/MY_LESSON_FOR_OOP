@@ -22,12 +22,14 @@ class RRange:
 
 fr01 = RRange(0, 2, 0.5)
 # print(next(fr))
+
 # print(next(fr))
 # print(next(fr))
 # print(next(fr))
 for i in fr01:
     print("*", i, "*")
 print("*" * 180)
+
 
 
 class Frange2D:
