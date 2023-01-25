@@ -26,6 +26,7 @@ class MixinLog:
 
 
 class Notebook(Goods, MixinLog):  # Порядок имеет значение!!!!!!
+    pass
 
     # def print_info(self):
     #     MixinLog.print_info(self)
